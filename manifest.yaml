@@ -1,0 +1,6 @@
+applications:
+- name: boringwebpage
+  buildpack: https://github.com/cloudfoundry-community/staticfile-buildpack.git
+  memory: 64M
+  stack: cflinuxfs2
+  instances: 1
